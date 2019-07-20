@@ -8,7 +8,7 @@ from 'react-router-dom'
 
 const Issues= props => (
 <div className='App'>
-    {props.issues.map((issue,i)=><Link key={i} to={issue.id}>{issue.title} </Link>)}
+    {props.issues.map((issue,i)=><Link key={i} to={'/isues/'+ issue.id}>{issue.title} </Link>)}
 
 </div>
 )

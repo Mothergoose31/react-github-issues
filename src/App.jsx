@@ -37,7 +37,8 @@ componentDidMount() {
   render(){
     return(
       <Router>
-          <header className='header'role='banner'>
+          <header className
+          ='header'role='banner'>
               <div id='imgcontainer'> 
                 <img src='github.svg.png' alt ='icon'></img>
                 <nav>
